@@ -13,7 +13,7 @@ for letra in frase.lower():
     else:
         letras[letra] = 1
 
-for letra, qunt in letras.items():
-    print(f"{letra}: {qunt}")
+for letra, qnt in letras.items():
+    print(f"{letra}: {qnt}")
 
 

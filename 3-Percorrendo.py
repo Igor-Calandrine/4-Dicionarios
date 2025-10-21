@@ -5,13 +5,13 @@ Percorrendo um dicionário com um laço
 Percorrendo todos os pares chave-valor com um laço
     Como vemos em u, para escrever um laço for para um dicionário, devemos criar nomes para as duas variáveis que armazenarão a chave e o valor de cada par chave-valor. Você pode escolher qualquer nome que quiser para essas duas variáveis. Esse código também funcionaria bem se usássemos abreviaturas para os nomes das variáveis:"""
 
+print("Exemplo 1")
 user_0 = {
     'username': 'user_fermi',
     'first': 'enrico',
     'last': 'fermi',
     }
 
-print("Exemplo 1")
 for key, value in user_0.items(): #u
     print("\nKey: " + key) #v
     print("Value: " + value) #w
@@ -19,6 +19,7 @@ for key, value in user_0.items(): #u
 """
     A segunda metade da instrução for em u inclui o nome do dicionário, seguido do método items(), que devolve uma lista de pares chave-valor, assim o laço for então armazena cada um desses pares nas duas variáveis especificadas. No exemplo anterior, usamos as variáveis para exibir cada chave (key) v, seguido do valor associado (value) w. Esses nomes descritivos fazem com que seja muito mais fácil ver o que a instrução print em m faz."""
 
+print("\nExemplo 2")
 favorite_languages = {
     'jen': 'python',
     'sarah': 'c',
@@ -26,7 +27,6 @@ favorite_languages = {
     'phil': 'python',
     }
 
-print("\nExemplo 2")
 for name, language in favorite_languages.items(): #m
     print(f"A linguagem favorita de {name.title()} é {language.title()}")
 
